@@ -5,7 +5,7 @@ class Home extends CI_Controller {
 
 	public function index()
 	{
-		$data['title'];
+		$data['title']="หน้าแรก";
 		$this->load->view('welcome_message');
 	}
 }
