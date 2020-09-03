@@ -1,0 +1,1 @@
+<?php echo link_tag('css/style.css');?>

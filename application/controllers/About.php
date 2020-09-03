@@ -18,9 +18,10 @@ class About extends CI_Controller {
 
         $result = $this->M8_model->get_lists();
 
-        echo "<br><Br><br>"
-        echo $result[0]["username"];
-        //print_r($result);
+        echo "<pre>";
+        echo $result[0]["ba_code"];
+        print_r($result);
+        $this->db->close();
     }
     
     public function social()
